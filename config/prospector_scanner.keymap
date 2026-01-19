@@ -15,6 +15,17 @@
 
         // Default layer - scanner has no physical keys
         default_layer {
+            display-name - "Base";
+            bindings = <&none>;
+        };
+
+        number_layer {
+            display-name - "Number";
+            bindings = <&none>;
+        };
+
+        symbol_layer {
+            display-name - "Symbol";
             bindings = <&none>;
         };
     };
